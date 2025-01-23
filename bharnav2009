@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharnav's World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav {
+            background-color: #0f3460;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to right, #1a1a2e, #16213e);
+            color: white;
+        }
+        .hero h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        section {
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .about, .books {
+            text-align: center;
+        }
+        .books {
+            background-color: #e9eef5;
+        }
+        .book {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bharnav's World</h1>
+        <p>Author, Creator, and Storyteller</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#books">My Books</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h2>Welcome to My World!</h2>
+        <p>
+            Dive into the stories I've created and explore the journeys of characters that live in my imagination.  
+            Here, you'll find my passion for storytelling and the books that reflect my creativity.
+        </p>
+    </div>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Bharnav, an author passionate about crafting engaging stories. From suspenseful survival tales to self-help guides, my works aim to entertain, inspire, and connect with readers around the world.
+        </p>
+    </section>
+
+    <section id="books" class="books">
+        <h2>My Books</h2>
+        <div class="book">
+            <img src="book1.jpg" alt="Lightshard Nexus">
+            <h3>The Lightshard Nexus: The Survival Story</h3>
+            <p>A thrilling survival story filled with suspense, drama, and action. Experience the adventure now!</p>
+        </div>
+        <div class="book">
+            <img src="book2.jpg" alt="Mastering Habits">
+            <h3>Mastering Habits</h3>
+            <p>A step-by-step guide to transforming your life and achieving your goals.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact Me: bharnav@example.com</p>
+        <p>&copy; 2025 Bharnav's World. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
